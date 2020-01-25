@@ -1,11 +1,14 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 
 const Nav = () => {
+
+  const [colorS, setColorS] = useState('d-flex justify-content-end');
+
   return (
     <Fragment>
-      <nav className="d-flex justify-content-end">
+      <nav className={colorS}>
         <div className="list">
-          <span>Menu</span>
+          <span>home</span>
           <span>About</span>
           <span>Skills</span>
           <span>Services</span>

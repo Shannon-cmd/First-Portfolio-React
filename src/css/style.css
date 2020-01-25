@@ -12,6 +12,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 nav span {
@@ -19,6 +20,11 @@ nav span {
   padding: 0vh 3vh 0vh 3vh;
   font-size: 12px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav span:hover {
+  color: rgb(26, 10, 247);
 }
 
 .list {
@@ -51,7 +57,7 @@ nav span {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 7s steps(44) 1s 1 normal both,
+  animation: typewriter 4s steps(44) 1s 1 normal both,
              blinkTextCursor 1000ms steps(44) infinite normal;
 }
 @keyframes typewriter{
@@ -65,13 +71,19 @@ nav span {
 
 /*ABOUT*/
 
+.aboutsect {
+  margin-bottom: 10%
+}
+
 .row {
   width: 100%
 }
 
 .photo-me {
-  width: 75%;
-  height: 100%;
+  width: 85vh;
+  height: 60vh;
+  border-radius: 2%;
+  margin-bottom: 5vh;
 }
 
 .t-about {
@@ -87,12 +99,15 @@ nav span {
 
 .t-about span {
   color: rgb(26, 10, 247);
+  background-color: rgb(209, 206, 253);
+  border-radius: 5%;
 }
 
 .about-me {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(254, 239, 239);
   padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .about-me h6 {
@@ -109,4 +124,44 @@ nav span {
   line-height: 2rem;
   font-size: 14px;
   color: #828282;
+  margin-bottom: 7%;
+}
+
+/*button*/
+
+.boxA {
+  text-decoration: none;
+}
+
+.boxSpan {
+    position: relative;
+    color: #1a0af7;
+    background-color: transparent;
+    border: 2px solid #1a0af7;
+    padding: 13px 50px;
+    z-index: 10;
+    font-weight: bold;
+    margin-top: 6%;
+    font-size: 15px;
+}
+
+.box {
+  position: absolute;
+  top: 0px;
+  left: 28px;
+  width: 77%;
+  height: 8vh;
+  margin-bottom: 5%;
+  display: block;
+  background-color: #d1cefd;
+  z-index: 0;
+}
+
+/**/
+
+.about-info p {
+  border-bottom: dotted 1px grey;
+  padding-bottom: 2vh;
+  font-size: 13px;
+  color: #212121;
 }

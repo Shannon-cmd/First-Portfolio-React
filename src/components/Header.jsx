@@ -8,7 +8,7 @@ const Header = () => {
       <section>
         <img className="background" src={Background} alt="..." />
         <div className="d-flex justify-content-center">
-        <p class="line-1 anim-typewriter">I'm Shannon Stoller</p>
+          <p class="line-1 anim-typewriter">I'm Shannon Stoller</p>
         </div>
       </section>
     </Fragment>
