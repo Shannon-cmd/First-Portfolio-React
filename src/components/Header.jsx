@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
-import Background from '../img/head.jpg'
+import Background from '../img/bg2.jpg'
 
 const Header = () => {
 
   return (
     <Fragment>
-      <section ClassName="header">
+      <section>
         <img className="background" src={Background} alt="..." />
-        <p class="line-1 anim-typewriter">I'm Shannon</p>
+        <div className="d-flex justify-content-center">
+        <p class="line-1 anim-typewriter">I'm Shannon Stoller</p>
+        </div>
       </section>
     </Fragment>
   )
