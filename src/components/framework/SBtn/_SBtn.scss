@@ -2,18 +2,14 @@
 
 .s_btn {
   z-index: 10;
-
   display: inline-block;
   position: relative;
   padding: 13px 50px;
   background: transparent;
   border: 2px solid $btn-border-color;
-
-  
   color: $btn-border-color !important;
   font-family: $font-family;
   font-weight: 700;
-  
   cursor: pointer;
   
   &::after {

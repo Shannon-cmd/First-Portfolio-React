@@ -4,7 +4,7 @@
 .form {
   background-color: $pink;
   font-family: 'Poppins', sans-serif;
-  padding-bottom: 2vh;
+  padding-bottom: 5vh;
 }
 
 .form h2 {
@@ -15,15 +15,36 @@
   justify-content: center;
 }
 
-.row {
-  margin-right: 5vh;
+.arround {
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .form input {
   border-style: none;
-  background-color: rgb(247, 247, 247);
+  background-color: $black;
   color: rgb(159, 155, 155);
   outline: none;
+  margin: 0vh 0vh 3vh 0vh;
+
+  &::placeholder {
+    color: rgb(159, 155, 155);
+  }
+  
+  &:focus {
+    background-color: $black;
+    outline: none;
+    color: rgb(159, 155, 155);
+  }
+}
+
+textarea {
+  border-style: none;
+  background-color: $black;
+  color: rgb(159, 155, 155);
+  outline: none;
+  margin: 3vh 0vh 3vh 0vh;
+  width: 100%;
 
   &::placeholder {
     color: rgb(159, 155, 155);

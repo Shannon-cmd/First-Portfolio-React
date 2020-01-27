@@ -3,9 +3,11 @@ import '../scss/_Nav.scss';
 
 const Nav = () => {
 
+  const [change, setChange] = useState('row');
+
   return (
     <Fragment>
-      <nav className="row">
+      <nav className={change}>
         <div className="col-1">
         <h4 className="logo px-4">SKeeny</h4>
         </div>

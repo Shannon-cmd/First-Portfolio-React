@@ -1,0 +1,53 @@
+@import '../components/framework/_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/*SERVICE*/
+
+.skills p {
+  margin-right: 2%;
+  margin-left: 2%;
+  line-height: 2rem;
+  font-size: 14px;
+  color: #828282;
+  margin-bottom: 7%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.skills i {
+  background-color: #d1cefd;
+  padding: 80%;
+  color: #1a0af7;
+  border-radius: 50%;
+}
+
+.skills i:hover {
+  animation: bounce 0.35s ease infinite alternate;
+}
+
+@keyframes bounce{
+     from {transform: translateY(0);}
+     to   {transform: translateY(-20px);}
+}
+
+
+.skills h5 {
+  color: #212121;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 1vh;
+}
+
+.t-about h2 {
+  color: #212121;
+}
+
+.t-about span {
+  color: $primary;
+  background-color: $primary-50;
+  border-radius: 5%;
+}
+
+.t-about {
+  font-size: 40px;
+}
