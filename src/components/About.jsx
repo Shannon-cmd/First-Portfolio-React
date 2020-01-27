@@ -1,17 +1,19 @@
 import React, { Fragment } from 'react';
 import Me from '../img/pdp.jpg';
-
+import '../scss/_About.scss';
+import SBtn from './framework/SBtn/SBtn';
 
 const About = () => {
   return (
     <Fragment>
       <section className="aboutsect">
-        <h2 className="d-flex justify-content-center my-5 t-about">About <span>Myself</span></h2>
+
+        <h2 className="d-flex justify-content-center my-5 t-about">About&nbsp;<span>Myself</span></h2>
         <div className="row">
 
           <div className="col d-flex justify-content-center align-items-center">
             <img className="photo-me mt-4" src={Me} alt="" />
-            {/* <a className="boxA" href=""><span className="boxSpan">download cv</span><div className="box"></div></a> */}
+
           </div>
 
           <div className="about-me col container">
@@ -27,11 +29,14 @@ const About = () => {
                 <p>Phone : +32 412 34 56</p>
               </div>
             </div>
+            <div className="d-flex justify-content-center">
+              <SBtn className="my-3">download cv</SBtn>
+            </div>
           </div>
         </div>
       </section>
 
-      
+
     </Fragment>
   )
 }

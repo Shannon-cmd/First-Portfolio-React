@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import '../components/framework/_variables.scss';
+
+/*NAV*/
+
+nav {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav span {
+  font-family: 'Poppins', sans-serif;
+  padding: 0vh 3vh 0vh 3vh;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav span:hover {
+  color: rgb(26, 10, 247);
+}
+
+.list {
+  padding: 3vh 10vh 20px 20px;
+}

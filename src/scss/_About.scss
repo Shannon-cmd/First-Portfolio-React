@@ -1,0 +1,68 @@
+@import '../components/framework/_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/*ABOUT*/
+
+.aboutsect {
+  margin-bottom: 10%
+}
+
+.row {
+  width: 100%
+}
+
+.photo-me {
+  width: 85vh;
+  height: 60vh;
+  border-radius: 2%;
+  margin-bottom: 5vh;
+}
+
+.t-about {
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.t-about h2 {
+  color: #212121;
+}
+
+.t-about span {
+  color: $primary;
+  background-color: $primary-50;
+  border-radius: 5%;
+}
+
+.about-me {
+  font-family: 'Poppins', sans-serif;
+  background-color: $pink;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.about-me h6 {
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 4vh;
+  font-weight: bold;
+  color: #212121;
+}
+
+.about-me p {
+  margin-right: 2%;
+  margin-left: 2%;
+  line-height: 2rem;
+  font-size: 14px;
+  color: #828282;
+  margin-bottom: 7%;
+}
+
+
+.about-info p {
+  border-bottom: dotted 1px grey;
+  padding-bottom: 2vh;
+  font-size: 13px;
+  color: #212121;
+}

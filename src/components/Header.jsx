@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Background from '../img/bg2.jpg'
+import '../scss/_Header.scss';
 
 const Header = () => {
 

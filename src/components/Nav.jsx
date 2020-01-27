@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react';
+import '../scss/_Nav.scss';
 
 const Nav = () => {
 
