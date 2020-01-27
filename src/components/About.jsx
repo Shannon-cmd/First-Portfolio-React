@@ -8,7 +8,7 @@ const About = () => {
     <Fragment>
       <section className="aboutsect">
 
-        <h2 className="d-flex justify-content-center my-5 t-about">About&nbsp;<span>Myself</span></h2>
+        <h2 className="d-flex justify-content-center my-5 t-about">— About&nbsp;<span>Myself</span>&nbsp;—</h2>
         <div className="row">
 
           <div className="col d-flex justify-content-center align-items-center">
@@ -26,7 +26,7 @@ const About = () => {
               </div>
               <div className="col">
                 <p>Email : stoshannon@gmail.com</p>
-                <p>Phone : +32 412 34 56</p>
+                <p>Phone : +32 486 34 56</p>
               </div>
             </div>
             <div className="d-flex justify-content-center">

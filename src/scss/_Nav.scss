@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 @import '../components/framework/_variables.scss';
 
 /*NAV*/
@@ -20,9 +21,17 @@ nav span {
 }
 
 nav span:hover {
-  color: rgb(26, 10, 247);
+  color: rgb(209, 206, 253);
+  transition: color, 1s;
 }
 
 .list {
-  padding: 3vh 10vh 20px 20px;
+  padding: 0vh 5vh 20px 20px;
+  display: inline-flex !important;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  padding: 2vh 2vh 2vh 2vh;
+  display: inline;
 }

@@ -3,12 +3,13 @@ import '../scss/_Nav.scss';
 
 const Nav = () => {
 
-  const [colorS, setColorS] = useState('d-flex justify-content-end');
-
   return (
     <Fragment>
-      <nav className={colorS}>
-        <div className="list">
+      <nav>
+        <div>
+        <h4 className="logo">SKeeny</h4>
+        </div>
+        <div className="list d-flex justify-content-end">
           <span>home</span>
           <span>About</span>
           <span>Skills</span>

@@ -1,0 +1,22 @@
+@import '../components/framework/_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.form {
+  background-color: $pink;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.form input {
+  border-style: none;
+  background-color: rgb(247, 247, 247);
+  color: rgb(159, 155, 155);
+
+  &::placeholder {
+    color: rgb(159, 155, 155);
+  }
+}
