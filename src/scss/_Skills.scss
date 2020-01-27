@@ -37,3 +37,17 @@
   font-weight: bold;
   margin-left: 1vh;
 }
+
+.t-about h2 {
+  color: #212121;
+}
+
+.t-about span {
+  color: $primary;
+  background-color: $primary-50;
+  border-radius: 5%;
+}
+
+.t-about {
+  font-size: 40px;
+}

@@ -5,11 +5,11 @@ const Nav = () => {
 
   return (
     <Fragment>
-      <nav>
-        <div>
-        <h4 className="logo">SKeeny</h4>
+      <nav className="row">
+        <div className="col-1">
+        <h4 className="logo px-4">SKeeny</h4>
         </div>
-        <div className="list d-flex justify-content-end">
+        <div className="list d-flex justify-content-end col">
           <span>home</span>
           <span>About</span>
           <span>Skills</span>

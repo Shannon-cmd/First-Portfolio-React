@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <Fragment>
       <section className="form container">
-      <h2 className="d-flex justify-content-center py-5">— Contact —</h2>
+      <h2 className="py-5">— Contact —</h2>
       <div className="row container mt-2">
         <div className="col d-flex justify-content-center">
           <input type="text" placeholder="Name"/>
@@ -15,7 +15,10 @@ const Form = () => {
         </div>
       </div>
       <div className="container">
-        <input className="w-100" type="text"/>
+        <input type="text" placeholder="Subject"/>
+      </div>
+      <div className="container">
+        <input type="text" placeholder="Message"/>
       </div>
 
       </section>
