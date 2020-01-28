@@ -30,7 +30,7 @@ const Portfolio = () => {
             <div className="carousel-item">
               <img className="d-block w-100 arroundport" src={Portfolio2} alt="Third slide" />
               <div className="d-flex justify-content-center mt-2">
-                <SBtn>currently</SBtn>
+                <SBtn href="#home">currently</SBtn>
               </div>
             </div>
           </div>

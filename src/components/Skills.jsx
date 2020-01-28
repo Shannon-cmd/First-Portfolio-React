@@ -37,7 +37,7 @@ const Skills = () => {
               </div>
             </div>
             <div>
-              <p>PHOTOSHOP, ILLUSTRATOR</p>
+              <p>BASH</p>
               <div className="d-flex">
                 <BarProgress className="progress-value3" />&nbsp;&nbsp;<p>60%</p>
               </div>
