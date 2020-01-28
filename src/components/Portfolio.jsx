@@ -24,7 +24,7 @@ const Portfolio = () => {
             <div className="carousel-item">
               <img className="d-block w-100 arroundport" src={Emporium} alt="Second slide" />
               <div className="d-flex justify-content-center mt-2">
-                <SBtn href="https://keen-shirley-567523.netlify.com/">view emporium website</SBtn>
+                <SBtn href="https://keen-shirley-567523.netlify.com/">emporium project</SBtn>
               </div>
             </div>
             <div className="carousel-item">

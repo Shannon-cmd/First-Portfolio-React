@@ -3,18 +3,27 @@
 
 /*SERVICE*/
 
+.card {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.bg-pink {
+  background-color: $pink;
+}
+
 .skills {
   margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .skills p {
   margin-right: 2%;
   margin-left: 2%;
-  line-height: 2rem;
   font-size: 14px;
   color: #828282;
   margin-bottom: 7%;
-  font-family: 'Poppins', sans-serif;
+  
 }
 
 .skills i {
@@ -53,4 +62,24 @@
 
 .t-about {
   font-size: 40px;
+}
+
+.car1:hover {
+  background-color: $pink;
+  transition: background-color, 0.5s;
+}
+
+.car2:hover {
+  background-color: $primary-50;
+  transition: background-color, 0.5s;
+}
+
+.car3:hover {
+  background-color: white;
+  transition: background-color, 0.5s;
+}
+
+.car4:hover {
+  background-color: $pink;
+  transition: background-color, 0.5s;
 }
