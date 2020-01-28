@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import '../components/framework/_variables.scss';
+
+.footer {
+  background-color: rgb(247, 247, 247);
+}
+
+.footer2 {
+  background-color: $pink;
+  font-family: $font-family;
+  font-size: 13px;
+}
+
+.social {
+  padding-top: 8%;
+}
+
+.social span {
+  font-family: $font-family;
+  font-size: 13px;
+  color: $grey;
+}

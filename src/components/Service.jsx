@@ -4,25 +4,51 @@ import '../scss/_Service.scss'
 const Service = () => {
   return (
     <Fragment>
-      <section className="skills">
-      <h2 className="d-flex justify-content-center my-5 t-about">— Development&nbsp;<span>Skills</span>&nbsp;—</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      {/* <section id="services" className="skills">
+        <div className="mb-5 mt-3 d-flex justify-content-center">
+      <h2 className="t-about">— What I&nbsp;<span>offer</span>&nbsp;? —</h2>
+      </div>
+
       <div className="row">
         <div className="col d-flex justify-content-center mt-2">
-        <h2><i className="fas fa-building"></i></h2>
+        <h2><i className="fas fa-paint-brush p-4"></i></h2>
         </div>
-        <div className="col-4">
+        <div className="col-4 container">
           <h5>BRANDING IDENTITY</h5>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
         </div>
         <div className="col d-flex justify-content-center mt-2">
-        <h2><i class="far fa-keyboard"></i></h2>
+        <h2><i className="far fa-keyboard p-4"></i></h2>
         </div>
-        <div className="col-4">
-        <h5>BRANDING IDENTITY</h5>
+        <div className="col-4 container">
+        <h5>SOCIAL MEDIA MARKETING</h5>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
         </div>
       </div>
-      </section>
+      <div className="row">
+        <div className="col d-flex justify-content-center mt-2">
+        <h2><i className="fas fa-code p-4"></i></h2>
+        </div>
+        <div className="col-4 container">
+          <h5>WEB DEVELOPMENT AND DEVELOPMENT</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+        </div>
+        <div className="col d-flex justify-content-center mt-2">
+        <h2><i className="fas fa-deaf p-4"></i></h2>
+        </div>
+        <div className="col-4 container">
+        <h5>24 HOUR FRIENDLY SUPPORT</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+        </div>
+      </div>
+      </section> */}
     </Fragment>
   )
 }

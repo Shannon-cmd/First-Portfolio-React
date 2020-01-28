@@ -7,31 +7,30 @@
 nav {
   position: absolute;
   position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
+  padding-right: 2%;
+  width: 100% !important;
+  z-index: 20;
+  background-color: transparent;
+  transition : background-color, 1s;
 }
 
-nav span {
+nav a {
+  color: inherit;
   font-family: 'Poppins', sans-serif;
-  padding: 0vh 3vh 0vh 3vh;
+  padding: 0vh 6vh 0vh 3vh;
   font-size: 12px;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-nav span:hover {
-  color: rgb(209, 206, 253);
+  &:hover {
+  color: $primary;
   transition: color, 1s;
-}
-
-.list {
-  padding: 5vh 5vh 20px 20px;
-  display: inline-flex !important;
+  text-decoration: none;
+  }
 }
 
 .logo {
   font-family: 'Dancing Script', cursive;
-  font-size: 30px;
+  padding: 5vh 5vh 20px 20px;
+  font-size: 60px;
   display: inline;
 }

@@ -1,5 +1,7 @@
 @import '../variables';
 
+/*HTML CSS*/
+
 .progress {
   background: rgba(255,255,255,0.1);
   justify-content: flex-start;
@@ -16,29 +18,79 @@
   animation: load 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
-  background: #fff;
+  background: $progress;
   height: 30px;
   width: 0;
-  
   @keyframes load {
   0% { width: 0; }
-  100% { width: 10%; }
+  100% { width: 90%; }
   }
+
 }
 
-/**/
+/*JAVASCRIPT REACT*/
 
 .progress-value1 {
-  animation: load 3s normal forwards;
+  animation: load1 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
-  background: #fff;
+  background: $progress2;
   height: 30px;
   width: 0;
   
-  @keyframes load {
+  @keyframes load1 {
   0% { width: 0; }
-  100% { width: 70%; }
+  100% { width: 80%; }
   }
 }
+
+/*MICROSOFT OFFICE*/
+
+.progress-value2 {
+  animation: load2 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: $progress;
+  height: 30px;
+  width: 0;
+  
+  @keyframes load2 {
+  0% { width: 0; }
+  100% { width: 80%; }
+  }
+}
+
+/*PHOTOSHOP, ILLUSTRATOR*/
+
+.progress-value3 {
+  animation: load3 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: $progress;
+  height: 30px;
+  width: 0;
+  
+  @keyframes load3 {
+  0% { width: 0; }
+  100% { width: 60%; }
+  }
+}
+
+/*VMARE*/
+
+.progress-value4 {
+  animation: load4 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: $progress2;
+  height: 30px;
+  width: 0;
+  
+  @keyframes load4 {
+  0% { width: 0; }
+  100% { width: 55%; }
+  }
+}
+
+
 

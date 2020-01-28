@@ -6,7 +6,7 @@ import SBtn from './framework/SBtn/SBtn';
 const Form = () => {
   return (
     <Fragment>
-      <section className="form container">
+      <section id="contact" className="form container">
         <h2 className="py-5">— Contact —</h2>
         <div className="arround">
           <div className="form-row">

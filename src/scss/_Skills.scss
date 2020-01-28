@@ -1,0 +1,36 @@
+@import '../components/framework/_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.all {
+font-family: $font-family;
+}
+
+.t-skill h2 {
+  color: #212121;
+}
+
+.t-skill span {
+  color: $primary;
+  background-color: $primary-50;
+  border-radius: 5%;
+}
+
+.t-skill {
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.barprog {
+  background-color: $pink;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: bold;
+}
+
+.about-skill p {
+  color: $grey;
+}
+
+.bluediv {
+  color: $primary-50
+}

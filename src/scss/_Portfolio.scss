@@ -1,0 +1,42 @@
+@import '../components/framework/_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.sectCarou {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3%;
+  background-color: $pink;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.t-port {
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 37px;
+}
+
+.t-port h2 {
+  color: $black;
+}
+
+.t-port span {
+  color: $primary;
+  background-color: $primary-50;
+  border-radius: 5%;
+}
+
+.arroundport {
+  border: 2px dotted $black;
+}
+
+.main {
+  border: 2px dotted $black;
+  background-image: url('../img/main.jpg');
+  height: 20vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

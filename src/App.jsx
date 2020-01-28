@@ -1,18 +1,22 @@
 import React, { Fragment } from 'react';
-import Nav from './components/Nav.jsx';
-import Header from './components/Header.jsx';
-import About from './components/About.jsx';
+import Header from './components/Header';
+import About from './components/About';
 import Skills from './components/Skills';
+import Service from './components/Service';
+import Portfolio from './components/Portfolio';
 import Form from './components/Form';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <Fragment>
-      <Nav />
       <Header />
       <About />
       <Skills />
+      <Service />
+      <Portfolio />
       <Form />
+      <Footer />
     </Fragment>
   )
 

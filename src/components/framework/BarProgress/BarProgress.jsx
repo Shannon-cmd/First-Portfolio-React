@@ -5,7 +5,7 @@ const BarProgress = (props) => {
   return (
     <Fragment>
       <div className="progress">
-        <div className={props.value}></div>
+        <div className={props.className}></div>
       </div>
     </Fragment>
   )

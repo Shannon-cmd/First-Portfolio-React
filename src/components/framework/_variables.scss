@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 $font-family: 'Poppins', sans-serif;
+
 $primary: rgb(26, 10, 247);
 
 $primary-50: rgba(26, 10, 247, .2);
 
 $pink : rgb(254, 239, 239);
 
+$grey : #828282;
+
 $black : #212121;
 
 $btn-border-color: $primary;
 
 $delay: .3s;
+
+$progress : linear-gradient(90deg, rgba(122,58,180,1) 3%, rgba(209,206,253,1) 51%, rgba(25,26,173,1) 97%);
+
+$progress2 : linear-gradient(90deg, rgba(25,26,173,1) 3%, rgba(209,206,253,1) 51%, rgba(122,58,180,1) 96%);

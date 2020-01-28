@@ -3,17 +3,13 @@
 
 /*ABOUT*/
 
-.aboutsect {
-  margin-bottom: 10%
-}
-
 .row {
   width: 100%
 }
 
 .photo-me {
-  width: 85vh;
-  height: 60vh;
+  width: 80vh;
+  height: auto;
   border-radius: 2%;
   margin-bottom: 5vh;
 }
@@ -26,7 +22,7 @@
 }
 
 .t-about h2 {
-  color: #212121;
+  color: $black;
 }
 
 .t-about span {
