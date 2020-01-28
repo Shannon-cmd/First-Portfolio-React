@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <Fragment>
       <section id="skills" className="container mb-5 all">
-        <div className="d-flex justify-content-center test">
+        <div className="d-flex justify-content-center">
           <h2 className="mb-5 mt-3 t-skill">— Development&nbsp;<span>Skills</span>&nbsp;—</h2>
         </div>
         <div className="row">

@@ -45,7 +45,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="main"></section>
+      <section id="contact" className="main"></section>
     </Fragment>
   )
 }

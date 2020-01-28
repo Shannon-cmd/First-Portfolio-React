@@ -4,7 +4,7 @@ import '../scss/_Service.scss'
 const Service = () => {
   return (
     <Fragment>
-      <section className="skills container">
+      <section id="services" className="skills container">
         <div className="mb-5 mt-3 d-flex justify-content-center">
           <h2 className="t-about">— What I&nbsp;<span>offer</span>&nbsp;? —</h2>
         </div>
@@ -60,33 +60,6 @@ const Service = () => {
         </div>
 
       </section>
-
-      {/* <section id="services" className="skills">
-      <div className="row">
-        
-        <div className="col-4 container">
-          <h5>BRANDING IDENTITY</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
-        </div>
-        
-        <div className="col-4 container">
-        <h5></h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
-        </div>
-      </div>
-      <div className="row">
-        
-        <div className="col-4 container">
-          <h5> AND DEVELOPMENT</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
-        </div>
-        
-        <div className="col-4 container">
-        <h5>24 HOUR FRIENDLY SUPPORT</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
-        </div>
-      </div>
-      </section> */}
     </Fragment>
   )
 }
