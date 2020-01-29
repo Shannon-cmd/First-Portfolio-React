@@ -9,7 +9,6 @@ const About = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      console.log(window.scrollY)
       if (window.scrollY > 110) {
         setChange('d-flex justify-content-center my-5 t-about animated slideInLeft')
       } else {
