@@ -39,7 +39,7 @@ const Skills = () => {
           <h2 className="mb-5 mt-3 t-skill">— My&nbsp;<span>Skills</span>&nbsp;—</h2>
         </div>
         <div className="row">
-          <div className="col container barprog shadow">
+          <div className="col container barprog shadow mb-3">
             <div>
               <p>HTML, CSS</p>
               <div className="d-flex">
