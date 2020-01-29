@@ -1,7 +1,21 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import '../scss/_Service.scss'
 
 const Service = () => {
+
+  const [change, setChange] = useState('card shadow')
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      console.log(window.scrollY)
+      if (window.scrollY > 1600) {
+        setChange('card shadow animated fadeInUp')
+      } else {
+        setChange('card shadow')
+      }
+    })
+  })
+
   return (
     <Fragment>
       <section id="services" className="skills container">
@@ -10,20 +24,20 @@ const Service = () => {
         </div>
         <div className="row">
           <div className="col">
-            <div className="card">
-              <div className="card-body car1">
+            <div className={change}>
+              <div className="card-body bg-pink car1">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-paint-brush p-4"></i></h2>
                 </div>
                 <h5 className="card-title text-center">BRANDING IDENTITY</h5>
                 <hr />
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab, quaerat blanditiis modi facilis ducimus? Excepturi nesciunt, quas assumenda facilis porro vitae debitis velit dignissimos perferendis quo obcaecati quam odio.</p>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab, quaerat blanditiis modi facilis ducimus? Excepturi nesciunt, quas assumenda facilis porro vitae debitis velit dignissimos perferendis quo obcaecati.</p>
               </div>
             </div>
           </div>
           <div className="col">
-            <div className="card">
-              <div className="card-body bg-pink car2">
+            <div className={change}>
+              <div className="card-body bg-pink car1">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="far fa-keyboard p-4"></i></h2>
                 </div>
@@ -34,20 +48,20 @@ const Service = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card">
-              <div className="card-body bg-pink car3">
+            <div className={change}>
+              <div className="card-body bg-pink car1">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-code p-4"></i></h2>
                 </div>
                 <h5 className="card-title text-center">WEB DEVELOPMENT</h5>
                 <hr />
-                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam explicabo a exercitationem reprehenderit, at illum provident iste optio voluptatem sequi sed dicta sunt laudantium magni ratione est quae qui nisi.</p>
+                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam explicabo a exercitationem reprehenderit, at illum provident iste optio voluptatem sequi sed dicta sunt laudantium magni ratione est quae.</p>
               </div>
             </div>
           </div>
           <div className="col">
-            <div className="card">
-              <div className="card-body car4">
+            <div className={change}>
+              <div className="card-body bg-pink car1">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-deaf p-4"></i></h2>
                 </div>

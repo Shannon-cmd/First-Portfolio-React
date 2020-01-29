@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
-import Me from '../img/design.jpg';
+import Me from '../img/design2.jpg';
 import '../scss/_About.scss';
 import SBtn from './framework/SBtn/SBtn';
 
@@ -21,16 +21,15 @@ const About = () => {
   return (
     <Fragment>
       <section id="about" className="container mb-5 mt-3">
-
-        <h2 className={change}>— About&nbsp;<span>Myself</span>&nbsp;—</h2>
+        <h2 className={change}>— About&nbsp;<span>Me</span>&nbsp;—</h2>
         <div className="row">
 
-          <div className="col container d-flex justify-content-center align-items-center">
-            <img className="photo-me mt-4" src={Me} alt="" />
+          <div className="col-md-6 col-sm-12 col-xs-12 container d-flex justify-content-center align-items-center">
+            <img className="photo-me mt-4 shadow" src={Me} alt="" />
           </div>
-          <div className="about-me col container">
+          <div className="col-md-6 col-sm-12 col-xs-12 about-me shadow">
             <h6>I'M SHANNON STOLLER, 20 YEARS OLD DESIGNER AND DEVELOPER</h6>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, fuga, ut soluta iusto cum quibusdam, aut totam corrupti aspernatur doloribus sapiente? Totam assumenda enim aperiam fugit ad nobis veritatis libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cum error ratione cumque amet? Cupiditate eos accusamus tenetur, harum exercitationem eum veritatis blanditiis expedita mollitia, natus dicta soluta beatae. Dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sed commodi voluptates, odit quia unde ipsam repellat dicta.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, fuga, ut soluta iusto cum quibusdam, aut totam corrupti aspernatur doloribus sapiente? Totam assumenda enim aperiam fugit ad nobis veritatis libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cum error ratione cumque amet? Cupiditate eos accusamus tenetur, harum exercitationem eum veritatis blanditiis expedita mollitia, natus dicta soluta beatae. Dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className="row about-info mb-4">
               <div className="col">
                 <p>Name : Stoller Shannon</p>

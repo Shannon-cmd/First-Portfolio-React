@@ -12,19 +12,19 @@ const Portfolio = () => {
         <h2 className="t-port">— Featured&nbsp;<span>Work</span>&nbsp;—</h2>
       </div>
 
-      <section className="sectCarou container">
+      <section className="sectCarou container shadow">
         <div id="carouselExampleIndicators" className="carousel slide w-75 container" data-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img className="d-block w-100 arroundport" src={Chef} alt="First slide" />
               <div className="d-flex justify-content-center mt-2">
-                <SBtn href="https://nostalgic-saha-92ca46.netlify.com/">view my first project</SBtn>
+                <SBtn href="https://nostalgic-saha-92ca46.netlify.com/">first project</SBtn>
               </div>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100 arroundport" src={Emporium} alt="Second slide" />
               <div className="d-flex justify-content-center mt-2">
-                <SBtn href="https://keen-shirley-567523.netlify.com/">emporium project</SBtn>
+                <SBtn href="https://keen-shirley-567523.netlify.com/">emporium</SBtn>
               </div>
             </div>
             <div className="carousel-item">

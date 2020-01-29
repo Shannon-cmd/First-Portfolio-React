@@ -8,7 +8,7 @@ const Nav = () => {
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 150) {
-        setChange('row no-gutters navbar navbar-expand-lg position-fixed bg-dark text-white navbar-dark')
+        setChange('row shadow no-gutters navbar navbar-expand-lg position-fixed bg-dark text-white navbar-dark')
       } else {
         setChange('row no-gutters navbar bg-transparent navbar-expand-lg navbar-light')
       }

@@ -6,7 +6,7 @@ import SBtn from './framework/SBtn/SBtn';
 const Form = () => {
   return (
     <Fragment>
-      <section className="form container">
+      <section className="form container shadow">
         <h2 className="py-5">— Contact —</h2>
         <div className="arround">
           <div className="form-row">
@@ -24,7 +24,7 @@ const Form = () => {
           <textarea className="rounded pl-2 pt-2 shadow" placeholder="Message" rows="4"></textarea>
           </div>
           <div className="d-flex justify-content-center">
-            <SBtn>submit now</SBtn>
+            <SBtn>submit</SBtn>
           </div>
         </div>
       </section>

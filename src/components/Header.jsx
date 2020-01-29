@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <Fragment>
-      <section id="home" className="background">
+      <section id="home" className="background shadow">
         <Nav />
       </section>
     </Fragment>
