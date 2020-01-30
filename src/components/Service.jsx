@@ -24,19 +24,19 @@ const Service = () => {
         <div className="row">
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink car1">
+              <div className="card-body bg-pink rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-paint-brush p-4"></i></h2>
                 </div>
-                <h5 className="card-title text-center">BRANDING IDENTITY</h5>
+                <h5 className="card-title text-center">CREATIVE DESIGN</h5>
                 <hr />
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab, quaerat blanditiis modi facilis ducimus? Excepturi nesciunt, quas assumenda facilis porro vitae debitis velit dignissimos perferendis quo obcaecati.</p>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab, quaerat blanditiis modi facilis ducimus? Excepturi nesciunt, quas assumenda facilis porro vitae debitis velit dignissimos perferendis quo.</p>
               </div>
             </div>
           </div>
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink car1">
+              <div className="card-body bg-pink rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="far fa-keyboard p-4"></i></h2>
                 </div>
@@ -48,7 +48,7 @@ const Service = () => {
           </div>
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink car1">
+              <div className="card-body bg-pink rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-code p-4"></i></h2>
                 </div>
@@ -60,7 +60,7 @@ const Service = () => {
           </div>
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink car1">
+              <div className="card-body bg-pink rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-deaf p-4"></i></h2>
                 </div>

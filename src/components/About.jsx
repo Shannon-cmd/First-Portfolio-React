@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div className={change}>
             <h6>I'M SHANNON STOLLER, 20 YEARS OLD WEBSITE DEVELOPER</h6>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, fuga, ut soluta iusto cum quibusdam, aut totam corrupti aspernatur doloribus sapiente? Totam assumenda enim aperiam fugit ad nobis veritatis libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cum error ratione cumque amet? Cupiditate eos accusamus tenetur, harum exercitationem eum veritatis blanditiis expedita mollitia, natus dicta soluta beatae. Dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Passionate about computers for a long time, I love learning and creating. I take advantage of my training to learn how to develop websites like this one. In the future, I would like to improve my design because it is for a me a way to develop my creativity. I love human contact. That’s why caring and listening are very important to me. Working as a team would be a great opportunity to develop my talents, improve and grow.</p>
             <div className="row about-info mb-4">
               <div className="col">
                 <p>Name : Stoller Shannon</p>

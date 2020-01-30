@@ -34,3 +34,7 @@ font-family: $font-family;
 .bluediv {
   color: $primary-50
 }
+
+#skills button:focus {
+  outline:0 !important;
+}

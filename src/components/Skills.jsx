@@ -5,7 +5,7 @@ import SBtn from './framework/SBtn/SBtn';
 
 const Skills = () => {
 
-  const [text, setText] = useState('container d-flex justify-content-center mt-5 mb-5 about-skill');
+  const [text, setText] = useState('container d-flex justify-content-center mt-5 mb-4 about-skill');
   const [value, setValue] = useState('');
   const [value1, setValue1] = useState('');
   const [value2, setValue2] = useState('');
@@ -15,14 +15,14 @@ const Skills = () => {
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 1000) {
-        setText('container d-flex justify-content-center mt-5 mb-5 about-skill animated fadeInRight')
+        setText('container d-flex justify-content-center mt-5 mb-4 about-skill animated fadeInRight')
         setValue('progress-value')
         setValue1('progress-value1')
         setValue2('progress-value2')
         setValue3('progress-value3')
         setValue4('progress-value4')
       } else {
-        setText('container d-flex justify-content-center mt-5 mb-5 about-skill')
+        setText('container d-flex justify-content-center mt-5 mb-4 about-skill')
         setValue('')
         setValue1('')
         setValue2('')
@@ -76,11 +76,18 @@ const Skills = () => {
           <div className="col container">
             <h2 className="text-center">About My Professional Web Development Skill</h2>
             <div className={text}>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis consectetur obcaecati laborum molestiae illum? Cupiditate commodi soluta quaerat neque, error ipsam modi aperiam fuga ullam, ea voluptas eius odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, atque vel cumque molestias eveniet voluptate culpa iusto doloribus. Accusantium impedit voluptates adipisci enim odit dignissimos. Hic sunt sint ducimus quae?</p>
+              <p>During my training in website development I had the opportunity to learn various programming languages such as HTML, CSS, Javascript and React. During my high school IT option I had various courses related to IT such as Microsoft Office and Bash language. I also had the opportunity to make virtual machines on VMWARE and various servers.</p>
               <div className="bluediv"></div>
             </div>
             <div className="d-flex justify-content-center">
-            <SBtn>learn more</SBtn>
+              <button className="btn btn-white" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <SBtn>learn more</SBtn>
+              </button>
+            </div>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Coming Soon
+            </div>
             </div>
           </div>
         </div>
