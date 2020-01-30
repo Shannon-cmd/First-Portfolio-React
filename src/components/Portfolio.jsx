@@ -8,7 +8,7 @@ import Portfolio2 from '../img/portfolio.png'
 const Portfolio = () => {
   return (
     <Fragment>
-      <div id="portfolio" className="mb-5 mt-3 d-flex justify-content-center">
+      <div id="portfolio" className="mb-3 mt-3 d-flex justify-content-center">
         <h2 className="t-port">— Featured&nbsp;<span>Work</span>&nbsp;—</h2>
       </div>
 

@@ -19,7 +19,7 @@ const Service = () => {
     <Fragment>
       <section id="services" className="skills container">
         <div className="mb-5 mt-3 d-flex justify-content-center">
-          <h2 className="t-about">— What I&nbsp;<span>offer</span>&nbsp;? —</h2>
+          <h2 id="offer" className="t-about">— What I&nbsp;<span>offer</span>&nbsp;? —</h2>
         </div>
         <div className="row">
           <div className="col">

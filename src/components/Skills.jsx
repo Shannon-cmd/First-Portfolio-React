@@ -55,7 +55,7 @@ const Skills = () => {
             <div>
               <p>MICROSOFT OFFICE</p>
               <div className="d-flex">
-                <BarProgress className={value2} />&nbsp;&nbsp;<p>80%</p>
+                <BarProgress className={value2} />&nbsp;&nbsp;<p>85%</p>
               </div>
             </div>
             <div>
