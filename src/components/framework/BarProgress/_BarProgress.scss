@@ -3,14 +3,14 @@
 /*HTML CSS*/
 
 .progress {
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.767);
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
   position: relative;
   padding: 0 5px;
   display: flex;
-  height: 40px;
+  height: 20px;
   width: 500px;
 }
 
@@ -19,7 +19,7 @@
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: $progress;
-  height: 30px;
+  height: 20px;
   width: 0;
   @keyframes load {
   0% { width: 0; }
@@ -34,7 +34,7 @@
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: $progress2;
-  height: 30px;
+  height: 20px;
   width: 0;
   
   @keyframes load1 {
@@ -50,7 +50,7 @@
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: $progress;
-  height: 30px;
+  height: 20px;
   width: 0;
   
   @keyframes load2 {
@@ -66,7 +66,7 @@
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: $progress;
-  height: 30px;
+  height: 20px;
   width: 0;
   
   @keyframes load3 {
@@ -82,7 +82,7 @@
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: $progress2;
-  height: 30px;
+  height: 20px;
   width: 0;
   
   @keyframes load4 {
