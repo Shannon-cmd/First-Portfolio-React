@@ -41,9 +41,9 @@ const Service = () => {
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="far fa-keyboard p-4"></i></h2>
                 </div>
-                <h5 className="card-title text-center">SOCIAL MEDIA MARKETING</h5>
+                <h5 className="card-title text-center">SOCIAL MEDIA</h5>
                 <hr />
-                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid hic corporis, officia, ullam accusamus quis iure voluptatibus dolores accusantium asperiores voluptas deleniti repellat incidunt tempora dignissimos accusantium.</p>
+                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid hic corporis, officia, ullam accusamus quis iure voluptatibus dolores accusantium asperiores voluptas deleniti repellat incidunt tempora dignissimos.</p>
               </div>
             </div>
           </div>

@@ -61,13 +61,13 @@ const Skills = () => {
             <div>
               <p>VMWARE</p>
               <div className="d-flex">
-                <BarProgress className={value4} />&nbsp;&nbsp;<p>55%</p>
+                <BarProgress className={value4} />&nbsp;&nbsp;<p>65%</p>
               </div>
             </div>
             <div>
               <p>BASH</p>
               <div className="d-flex">
-                <BarProgress className={value3} />&nbsp;&nbsp;<p>60%</p>
+                <BarProgress className={value3} />&nbsp;&nbsp;<p>50%</p>
               </div>
 
             </div>

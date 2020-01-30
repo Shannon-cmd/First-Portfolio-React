@@ -3,14 +3,14 @@ import '../scss/_Nav.scss';
 
 const Nav = () => {
 
-  const [change, setChange] = useState('row no-gutters navbar bg-transparent navbar-expand-lg navbar-light text-white');
+  const [change, setChange] = useState('row no-gutters navbar bg-transparent navbar-expand-lg navbar-light text-white py-2');
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 150) {
-        setChange('row shadow no-gutters navbar navbar-expand-lg position-fixed bg-dark text-white navbar-dark')
+        setChange('row shadow no-gutters navbar navbar-expand-lg position-fixed bg-dark text-white navbar-dark py-2')
       } else {
-        setChange('row no-gutters navbar bg-transparent navbar-expand-lg navbar-light')
+        setChange('row no-gutters navbar bg-transparent navbar-expand-lg navbar-light py-2')
       }
     });
   });
