@@ -8,17 +8,17 @@ import Form from './components/Form';
 import Footer from './components/Footer';
 
 const App = () => {
-    return (
-      <Fragment>
-        <Header />
-        <About />
-        <Skills />
-        <Service />
-        <Portfolio />
-        <Form />
-        <Footer />
-      </Fragment>
-    )
+  return (
+    <Fragment>
+      <Header />
+      <About />
+      <Skills />
+      <Service />
+      <Portfolio />
+      <Form />
+      <Footer />
+    </Fragment>
+  )
 }
 
 
