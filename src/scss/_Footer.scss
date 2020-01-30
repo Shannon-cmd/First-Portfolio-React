@@ -13,11 +13,17 @@
 
 .social {
   padding-top: 8%;
-  
 }
 
 .social span {
   font-family: $font-family;
   font-size: 13px;
   color: $grey;
+}
+
+/**/ 
+
+.imgNuage {
+  width: 8%;
+  transform: scaleX(-1);
 }
