@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';

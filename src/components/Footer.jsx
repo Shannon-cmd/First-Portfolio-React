@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import '../scss/_Footer.scss';
 
 const Footer = () => {
+
   return (
     <Fragment>
       <section id="footer" className="footer w-100 mt-5 d-flex justify-content-center">

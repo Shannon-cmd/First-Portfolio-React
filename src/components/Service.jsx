@@ -7,7 +7,6 @@ const Service = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      console.log(window.scrollY)
       if (window.scrollY > 1600) {
         setChange('card shadow animated fadeInUp')
       } else {
