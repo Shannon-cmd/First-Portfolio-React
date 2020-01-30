@@ -5,13 +5,10 @@
 /*NAV*/
 
 nav {
-  position: absolute;
-  position: fixed;
-  padding-right: 2%;
-  width: 100% !important;
   z-index: 20;
   background-color: transparent;
   transition : background-color, 1s;
+  height: 10vh;
 }
 
 nav a {
