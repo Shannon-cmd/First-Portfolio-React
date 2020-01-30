@@ -84,8 +84,8 @@ const Skills = () => {
                 <SBtn>learn more</SBtn>
               </button>
             </div>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
+            <div className="collapse" id="collapseExample">
+              <div className="card card-body">
                 Coming Soon
             </div>
             </div>

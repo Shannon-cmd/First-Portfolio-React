@@ -24,7 +24,7 @@ const Service = () => {
         <div className="row">
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink rounded">
+              <div className="card-body bg-pink car1 rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-paint-brush p-4"></i></h2>
                 </div>
@@ -36,7 +36,7 @@ const Service = () => {
           </div>
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink rounded">
+              <div className="card-body bg-pink car1 rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="far fa-keyboard p-4"></i></h2>
                 </div>
@@ -48,7 +48,7 @@ const Service = () => {
           </div>
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink rounded">
+              <div className="card-body bg-pink car1 rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-code p-4"></i></h2>
                 </div>
@@ -60,7 +60,7 @@ const Service = () => {
           </div>
           <div className="col">
             <div className={change}>
-              <div className="card-body bg-pink rounded">
+              <div className="card-body bg-pink car1 rounded">
                 <div className="col d-flex justify-content-center my-2">
                   <h2><i className="fas fa-deaf p-4"></i></h2>
                 </div>

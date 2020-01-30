@@ -27,8 +27,8 @@
 }
 
 .skills i {
-  background-color: #d1cefd;
-  color: #1a0af7;
+  background-color:$primary-50;
+  color: $primary;
   border-radius: 50%;
 }
 
@@ -64,12 +64,12 @@
   font-size: 40px;
 }
 
-.card-body:hover {
+.car1:hover {
   background-color: $black;
   transition: background-color, 0.5s;
 }
 
-.card-body:hover > h5 {
+.car1:hover > h5 {
   color: white;
   transition: 1s, color;
 }
