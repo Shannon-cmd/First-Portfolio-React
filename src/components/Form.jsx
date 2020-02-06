@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import '../scss/_Form.scss';
 import './framework/SBtn/SBtn';
 import SBtn from './framework/SBtn/SBtn';
 
 const Form = () => {
   return (
-    <Fragment>
+
       <section className="form container shadow">
         <h2 className="py-5">— Contact —</h2>
         <div className="arround">
@@ -28,7 +28,6 @@ const Form = () => {
           </div>
         </div>
       </section>
-    </Fragment>
   )
 }
 

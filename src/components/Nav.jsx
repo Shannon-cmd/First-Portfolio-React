@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../scss/_Nav.scss';
 
 const Nav = () => {
@@ -16,7 +16,6 @@ const Nav = () => {
   });
 
   return (
-    <Fragment>
       <nav className={change}>
         <h3 className="navbar-brand logo" href="#home">Keeny</h3>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +32,6 @@ const Nav = () => {
           </div>
         </div>
       </nav>
-    </Fragment>
   )
 }
 

@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../scss/_Service.scss'
 
 const Service = () => {
@@ -16,7 +16,6 @@ const Service = () => {
   })
 
   return (
-    <Fragment>
       <section id="services" className="skills container">
         <div className="mb-5 mt-3 d-flex justify-content-center">
           <h2 id="offer" className="t-about">— What I&nbsp;<span>offer</span>&nbsp;? —</h2>
@@ -73,7 +72,6 @@ const Service = () => {
         </div>
 
       </section>
-    </Fragment>
   )
 }
 

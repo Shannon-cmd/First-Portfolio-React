@@ -41,20 +41,16 @@ const Footer = () => {
   return (
     <Fragment>
       <section id="footer" className="footer w-100 mt-5 d-flex justify-content-center">
-
         <div className="social pb-5">
-
           <h5 className="text-center"><img onClick={handleRoll} className={nuage} src={NuageImg} alt="" /><i className={fb}></i> <i className={google}></i> <i className={linkedin}></i> <i className={insta}></i></h5>
-
           <span className="d-flex justify-content-center pt-2">Social Media</span>
-
         </div>
         <div>
-
         </div>
       </section>
+
       <section className="footer2 py-3 d-flex justify-content-center">
-        <span>©Copyright 2020 Keeny | All RightReserved.</span>
+        <span>©Copyright 2020 All RightReserved. | Made with <i class="fas fa-heart"></i> by Shannon.</span>
       </section>
     </Fragment>
   )

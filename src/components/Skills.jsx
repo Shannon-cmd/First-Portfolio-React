@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../scss/_Skills.scss';
 import BarProgress from './framework/BarProgress/BarProgress';
 import SBtn from './framework/SBtn/SBtn';
@@ -33,7 +33,6 @@ const Skills = () => {
   })
 
   return (
-    <Fragment>
       <section id="skills" className="container mb-5 all">
         <div className="d-flex justify-content-center">
           <h2 className="mb-5 mt-3 t-skill">— My&nbsp;<span>Skills</span>&nbsp;—</h2>
@@ -92,8 +91,6 @@ const Skills = () => {
           </div>
         </div>
       </section>
-
-    </Fragment>
   )
 }
 
